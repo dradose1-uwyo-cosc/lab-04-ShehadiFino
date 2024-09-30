@@ -107,8 +107,8 @@ for max_temp, min_temp in zip(max_temps, min_temps):
 average_max_temp = sum_max_temp / length
 average_min_temp = sum_min_temp / length
 
-print(f" The Average Maximum Temperature is: {average_max_temp}")
-print(f" The Average Minimum Temperature is: {average_min_temp}")
+print(f" The Average Maximum Temperature is: {average_max_temp:.2f}")
+print(f" The Average Minimum Temperature is: {average_min_temp:.2f}")
 
 
 # For the next part, determine the highest and lowest recorded temperatures.
