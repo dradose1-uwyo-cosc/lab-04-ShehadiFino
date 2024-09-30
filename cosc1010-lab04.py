@@ -1,11 +1,10 @@
 # Shehadi Fino
 # COSC 1010
-# Submission Date
+# Submission Date: 9-30-24
 # Lab 04
 # Lab Section: 14
-# Sources, people worked with, help given to:
-
-
+# Sources, people worked with, help given to: Ryan
+# Comments: None
 
 # This is your second lab section. It will primarily be about working with lists
 # Complete all sections of this assignment 
@@ -48,7 +47,6 @@ max_temps = [
     51, 55, 55, 54, 53, 51, 43, 23, 20, 30,
     35, 32, 41, 48, 44
 ]
-
 
 min_temps = [
     23, 14, 7, 11, 13, 22, 15, 21, 23, 31,
@@ -107,9 +105,8 @@ for max_temp, min_temp in zip(max_temps, min_temps):
 average_max_temp = sum_max_temp / length
 average_min_temp = sum_min_temp / length
 
-print(f" The Average Maximum Temperature is: {average_max_temp:.2f}")
-print(f" The Average Minimum Temperature is: {average_min_temp:.2f}")
-
+print(f"The Average Maximum Temperature is: {average_max_temp:.2f}")
+print(f"The Average Minimum Temperature is: {average_min_temp:.2f}")
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
@@ -118,4 +115,4 @@ highest_max_temp = max(max_temps)
 lowest_min_temp = min(min_temps)
 
 print(f"The Highest Recorded Temperature is: {highest_max_temp}")
-print(f"The Lowest Recroded Minimum Temperature is: {lowest_min_temp}")
+print(f"The Lowest Recorded Minimum Temperature is: {lowest_min_temp}")
